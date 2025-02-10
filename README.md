@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles related to test execution. The original Dockerfile fails to correctly run unit tests due to improper usage of the CMD instruction and potentially missing test discovery mechanisms.  The solution provided addresses this by explicitly specifying the test runner and path to the tests.
